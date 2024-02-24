@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: slategrey;
+    font-family: 'Nunito';
+}
+/* header one*/
+h1 {
+    color:darkslategrey;
+    font-size: 2.4rem;
+}
+
+button {
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: cadetblue;
+}
+.onboard-container {
+    box-shadow: 10px 10px 30px rgba(0,0,0,.1);
+    border-radius: .7em;
+    padding: 4em;
+    background: white;
+    min-width: 500px;
+    text-align: center;
+}
+
+.onboard {
+    background-color: rgb(76, 0, 255);
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: .7em;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: .3em;
+    margin-top: 2em;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+.loader {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: none;
+}
+
+.account {
+    background: rgb(233, 233, 233);
+    padding: .3em;
+    border-radius: .3em;
+    position: relative;
+    display: inline-block;
+    text-indent: 1.2em;
+}
+
+.account:before {
+        position: absolute;
+        content: "";
+        background: green;
+        width: .7em;
+        height: .7em;
+        border-radius: 50%;
+        left: .5em;
+        top: .6em;
+}
+
+.up {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    width: 10em;
+    display: none;
+}
+
+.confetti {
+    position: absolute;
+    width: 20em;
+    z-index: 2;
+    display: none;
+}
+
+
+
+
+p.one{
+    overflow: hidden;
+}
+p.two{
+    overflow: scroll;
+}
+#photo-viewer {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin: 20px auto;
+    border: 5px solid #333; /* Example style */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.thumbnails img {
+    width: 100px; /* Example size */
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.thumbnails img:hover {
+    opacity: 0.8;
+}
+
+
