@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NFT Marketplace</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+</head>
+<body>
+    <h1>NFT Marketplace</h1>
+    
+    <form id="mintForm">
+        <label for="owner">Owner:</label>
+        <input type="text" id="owner" name="owner" required><br><br>
+        
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" required><br><br>
+        
+        <label for="metadataURI">Metadata URI:</label>
+        <input type="text" id="metadataURI" name="metadataURI" required><br><br>
+        
+        <button type="submit">Mint NFT</button>
+    </form>
+    
+    <br><br>
+    
+    <form id="listForm">
+        <label for="tokenId">Token ID:</label>
+        <input type="number" id="tokenId" name="tokenId" required><br><br>
+        
+        <label for="listPrice">List Price:</label>
+        <input type="number" id="listPrice" name="listPrice" required><br><br>
+        
+        <button type="submit">List NFT For Sale</button>
+    </form>
+    
+    <script src="/Art5script.js"></script>
+</body>
+</html>
