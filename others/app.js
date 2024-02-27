@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', async () => {
     let web3;
     let contract;
@@ -1332,3 +1333,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     loadNFTs();
 >>>>>>> f5ddce64e1534a2795fa21beb423d2e4944abf9c
 });
+=======
+>>>>>>> aebe4a1b6415601c35298bf88eb78787944c3bcb
