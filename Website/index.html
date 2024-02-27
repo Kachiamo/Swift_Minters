@@ -1,56 +1,41 @@
-<!-- HTML (index.html) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NFT Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
     <script src="app.js" defer></script>
 </head>
 <body>
     <h1>NFT Marketplace</h1>
-    <div id="nfts"></div>
+    <h2>Mint NFT</h2>
+    <form id="mintForm">
+        <label for="ownerAddress">Owner Address:</label>
+        <input type="text" id="ownerAddress" name="ownerAddress" required><br>
+        <label for="price">Price (in ETH):</label>
+        <input type="text" id="price" name="price" required><br>
+        <input type="submit" value="Mint NFT">
+    </form>
     
-    <button id="mintBtn">Mint NFT</button>
-    <button id="connectButton" onclick="connect()">Connect</button>
+    <h2>List NFT for Sale</h2>
+    <form id="listForm">
+        <label for="tokenId">Token ID:</label>
+        <input type="text" id="tokenId" name="tokenId" required><br>
+        <label for="salePrice">Sale Price (in ETH):</label>
+        <input type="text" id="salePrice" name="salePrice" required><br>
+        <input type="submit" value="List NFT for Sale">
+    </form>
 
-    
-    <script>
-      async
-      // Request account access if needed
-      await window.ethereum.enable();   
-      window.addEventListener('load', () => {
-            // Wait for loading completion to avoid race conditions with web3 injection timing.
-             if (window.ethereum) {
-               const web3 = new Web3(window.ethereum);
-               try {
-                 
-                 // Accounts now exposed
-                 return web3;
-               } catch (error) {
-                 console.error(error);
-               }
-             }
-             // Legacy dapp browsers...
-             else if (window.web3) {
-               // Use MetaMask/Mist's provider.
-               const web3 = window.web3;
-               console.log('Injected web3 detected.');
-               return web3;
-             }
-             // Fallback to localhost; use dev console port by default...
-             else {
-               const provider = new Web3.providers.HttpProvider('http://127.0.0.1:7545');
-               const web3 = new Web3(provider);
-               console.log('No web3 instance injected, using Local web3.');
-               return web3;
-             }
-           });
-        
-    
-    </script>    
-  
-    <script src="js/app.js"></script>
+    <h2>Buy NFT</h2>
+    <form id="buyForm">
+        <label for="tokenIdToBuy">Token ID to Buy:</label>
+        <input type="text" id="tokenIdToBuy" name="tokenIdToBuy" required><br>
+        <input type="submit" value="Buy NFT">
+    </form>
+
+    <h2>NFTs Available</h2>
+    <div id="nfts"></div>
 </body>
 </html>
