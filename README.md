@@ -31,6 +31,7 @@ The application is designed to be responsive and works well on desktop and mobil
 - **Pinata Cloud**: It is a decentralized cloud storage platform that utilizes the InterPlanetary File System (IPFS) to store and distributed data.
 - **MetaMask**: It allows users to store and swap cryptocurrencies, interact with the Ethereum blockchain ecosystem, and host a growing array of decentralized application (dApp).
 - **Ethereum Blockchain**: Used for tokenizing NFTs and recording ownership and transaction history.
+- **Alchemy IPFS**: Decentralized storage for NFT metadata and images.
 
 
    ![Alt Text](https://github.com/Kachiamo/Swifty_Minters/blob/main/others/Art-Work/image.png)
@@ -48,3 +49,16 @@ The application is designed to be responsive and works well on desktop and mobil
      ![](https://github.com/Kachiamo/Swifty_Minters/blob/main/others/Art-Work/screenshot_2024-02-28_183500.png)
 
      ![](https://github.com/Kachiamo/Swifty_Minters/blob/main/others/Art-Work/screenshot_2024-02-28_183535.png)
+
+
+
+## How to run
+- **clone the repository**
+- **cd nft**
+- **npm install**
+- **npm start**
+## Team Members
+- **Brian Keys**
+- **Joel Williams**
+- **Joeshp Amo Appiah**
+- **Shitanshu Eriwal**
