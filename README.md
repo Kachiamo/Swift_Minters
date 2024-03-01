@@ -52,9 +52,12 @@ The application is designed to be responsive and works well on desktop and mobil
 
 
 
+##
+Before you run, please make sure you have Node js installed, hardhat, nvm to switch between node versions.
+
 ## How to run
 - **clone the repository**
-- **cd nft**
+- **cd main_code**
 - **npm install**
 - **npm start**
 ## Team Members
