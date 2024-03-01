@@ -34,7 +34,7 @@ The application is designed to be responsive and works well on desktop and mobil
 - **Alchemy IPFS**: Decentralized storage for NFT metadata and images.
 
 
-   ![Alt Text](https://github.com/Kachiamo/Swifty_Minters/blob/main/others/Art-Work/image.png)
+   ![Alt Text](https://github.com/Kachiamo/Swift_Minters/blob/main/image.png)
 
 
   ## Usage
@@ -44,11 +44,11 @@ The application is designed to be responsive and works well on desktop and mobil
   4. **List NFT for sale**: Sellers can list their NFTs for sale on the marketplace. Set a price and other relevant details for the NFT listing.
 
  
-     ![](https://github.com/Kachiamo/Swifty_Minters/blob/main/others/Art-Work/screenshot_2024-02-28_183357.png)
+     ![](https://github.com/Kachiamo/Swift_Minters/blob/main/screenshot_2024-02-28_183357.png)
 
-     ![](https://github.com/Kachiamo/Swifty_Minters/blob/main/others/Art-Work/screenshot_2024-02-28_183500.png)
+     ![](https://github.com/Kachiamo/Swift_Minters/blob/main/screenshot_2024-02-28_183500.png)
 
-     ![](https://github.com/Kachiamo/Swifty_Minters/blob/main/others/Art-Work/screenshot_2024-02-28_183535.png)
+     ![](https://github.com/Kachiamo/Swift_Minters/blob/main/screenshot_2024-02-28_183535.png)
 
 
 
